@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.each do |season, holiday| 
     holiday_string = "#{season.capitalize}:"
+    holiday_string += "\n"
     holiday_string += "#{holiday}"
     puts holiday_string
   end
