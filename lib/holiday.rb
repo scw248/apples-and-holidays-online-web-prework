@@ -71,6 +71,7 @@ def all_supplies_in_holidays(holiday_hash)
         
         holiday_names.each { |name| name.capitalize }
         puts "  #{holiday_names.join(" ")}: #{items.join(', ')}"
+        puts "  #{holiday.capitalize}: #{items.join(', ')}"
   end
   end
 end
